@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AssignmentShopping" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:colorPrimaryDark">@color/black</item>
+        <item name="android:colorPrimary">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+    <style name="item_selected_style" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/white</item>
+    </style>
+    <style name="Theme.AssignmentShopping" parent="Base.Theme.AssignmentShopping" />
+</resources>
